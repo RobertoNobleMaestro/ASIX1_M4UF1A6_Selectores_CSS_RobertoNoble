@@ -20,11 +20,10 @@
         <p>We can divide CSS selectors into five categories:</p>
         <ul>
             <li>Simple selectors (select elements based on name, id, class)</li>
-            <li>Combinator selectors (select elements based on a specific relationship between them)</li>
-            <li>Pseudo-class selectors (select elements based on a certain state)
-            </li>
-            <li>Pseudo-elements selectors (select and style a part of an element)</li>
-            <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+            <li><a href="https://www.w3schools.com/css/css_combinators.asp">Combinator selectors </a>(select elements based on a specific relationship between them)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo-class selectors</a> (select elements based on a certain state)</li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_elements.asp">Pseudo-elements selectors</a> (select and style a part of an element)</li>
+            <li><a href="https://www.w3schools.com/css/css_attribute_selectors.asp">Attribute selectors</a> (select elements based on an attribute or attribute value)</li>
         </ul>
     </div>
     <hr>
@@ -52,14 +51,54 @@
     <div id="gallery">
         <div>
             <h3>CSS Syntax</h3>
-            <img src="./resources/regla_css.jpg" alt="">
+            <img src="./img/regla_css.jpg" alt="">
         </div>
         <div>
             <h3>All CSS Simple Selectors</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th><strong>Selector</strong></th>
+                        <th><strong>Example</strong></th>
+                        <th><strong>Example description</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="line-box">
+                        <td><u><i>#id</i></u></td>
+                        <td>#firstname</td>
+                        <td>selects the element with id="firstname"</td>
+                    </tr>
+                    <tr>
+                        <td><u><i>.class<i></u></td>
+                        <td>.intro</td>
+                        <td>Selects all elements with class="intro"</td>
+                    </tr>
+                    <tr class="line-box">
+                        <td><u><i>element.class</i></u></td>
+                        <td>p.intro</td>
+                        <td>Selects only elements with class="intro"</td>
+                    </tr>
+                    <tr>
+                        <td><u>*</u></td>
+                        <td>*</td>
+                        <td>Selects all elements</td>
+                    </tr>
+                    <tr class="line-box">
+                        <td><u><i>element</i></u></td>
+                        <td>p</td>
+                        <td>Selects all <p> elements</td>
+                    </tr>
+                    <tr>
+                        <td><u><i>element, element,..</i></u></td>
+                        <td>Fila 3, Columna 2</td>
+                        <td>Selects all <div> elements and <p> elements</td>
+                    </tr>
+                </tbody>
+            </table>
             <img src="./resources/selectors.png" alt="">
         </div>
     </div>
-
 </body>
 
 </html>
